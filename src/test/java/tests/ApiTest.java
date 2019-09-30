@@ -58,7 +58,7 @@ public class ApiTest {
 			body("Released.size()", greaterThan(0));
 	}
 	
-	//function to get imdbID of the movie which is title "Harry Potter and the Sorcerer's Stone" (can be changed on PageObjects.movieTitleForID) 
+	//function to get imdbID of the movie which is title "Harry Potter and the Sorcerer's Stone" (can be changed on PageObjects.MOVIE_TITLE_FOR_ID) 
 	private String getID () {
 		String imdbID =
 				given().
